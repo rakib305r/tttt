@@ -13,3 +13,6 @@ mkdir any_local_repo_name = new Local repo create
 git remote add origin link_name = local repo add in the github new repo
 git remote -v = GitHub connection (link) দেখার command
 git check -b branch_name = new branch create 
+git remote -v = set origin remote
+
+3rd party ami hahahaha
