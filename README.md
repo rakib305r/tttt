@@ -1,18 +1,17 @@
-# tttt
-this is for my experimnet only
-cd foldername = work this folder
-cd.. = exit this folder
-ls = all file show in your repository
-dir = all file show in your repository
-git status = which file Untracked(U), Modified(M)
-git add file_name = add file in the repository
-git add. = all file add in the repository
-git commit -m "write title anything" = commit file
-git push origin main = commit file push
-mkdir any_local_repo_name = new Local repo create
-git remote add origin link_name = local repo add in the github new repo
-git remote -v = GitHub connection (link) দেখার command
-git check -b branch_name = new branch create 
-git remote -v = set origin remote
+cd foldername      = folder enter
+cd ..              = folder exit
+ls / dir           = files show
+git status         = show changes (modified/untracked)
+git add file_name  = add single file
+git add .          = add all files
+git commit -m "msg"= save snapshot
+git push origin main = send to GitHub
 
-3rd party ami hahahaha
+mkdir folder_name  = new folder create
+git init           = new git repo start
+git remote add origin URL = connect GitHub repo
+git remote -v      = show GitHub link
+
+git branch -a      = show all branches
+git checkout -b branch_name = new branch create
+git pull origin main --rebase = sync with GitHub safely
