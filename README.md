@@ -15,3 +15,7 @@ git remote -v      = show GitHub link
 git branch -a      = show all branches
 git checkout -b branch_name = new branch create
 git pull origin main --rebase = sync with GitHub safely
+git clone repo_url   = GitHub repo download
+git log              = commit history
+git diff             = changes compare
+git branch           = current branch
